@@ -16,7 +16,7 @@ for i in range(987):
     for j in range(i,i+13):
         
         #If a number one of this 13 selected numbers is equal to 0, loop will break and continue with next digit. So the product is not calculated for nothing. 
-        if(j == 0):
+        if(digits[j] == 0):
             break
         
         product*=int(digits[j])
