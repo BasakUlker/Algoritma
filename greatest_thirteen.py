@@ -20,9 +20,9 @@ for i in range(987):
             break
         
         product*=int(digits[j])
-    
-    if(product > max_product):
-        max_product = product
+    else:
+        if(product > max_product):
+            max_product = product
 
 print(max_product) #Solution: 23514624000
 
